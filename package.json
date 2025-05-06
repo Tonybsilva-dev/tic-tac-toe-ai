@@ -13,6 +13,7 @@
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-tooltip": "^1.0.7",
     "@tailwindcss/vite": "^4.1.5",
+    "@vercel/analytics": "^1.5.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.344.0",
     "react": "^18.2.0",
