@@ -5,7 +5,7 @@ type PlayerTurnProps = {
 const PlayerTurn = ({ player }: PlayerTurnProps) => {
   return (
     <section className="text-center w-full border-none">
-      <p className="text-xl font-semibold text-zinc-400 my-2">{player}</p>
+      <p className="text-base sm:text-lg md:text-xl font-semibold text-zinc-400 my-1 sm:my-2">{player}</p>
     </section>
   )
 }

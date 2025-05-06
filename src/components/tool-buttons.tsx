@@ -10,7 +10,7 @@ const ToolButtons = () => {
 
   return (
     <>
-      <div className="flex w-full items-center justify-between text-center mx-auto">
+      <div className="flex w-full items-center justify-between text-center mx-auto gap-2">
         <div className="flex-1">
           <ToolButton
             icon={BotIcon}

@@ -7,7 +7,7 @@ type WrapperProps = {
 
 const Wrapper = ({ children, className }: WrapperProps) => {
   return (
-    <div className={cn("w-full max-w-md bg-emerald-200 flex flex-col items-center justify-center p-8 rounded-lg", className)}>
+    <div className={cn("w-full max-w-md bg-emerald-200 flex flex-col items-center justify-center p-3 sm:p-4 md:p-8 rounded-lg", className)}>
       {children}
     </div>
   )
